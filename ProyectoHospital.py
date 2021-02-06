@@ -2,7 +2,7 @@ import os
 os.system("cls")
 print("\n\n\t\t----BIENVENIDO AL PROGRAMA----\n\n")
 running=True
-database=[{'Nombre': 'Juan', 'Edad': 18, 'Historial': 'asdasd'}, {'Nombre': 'Pepe', 'Edad': 54, 'Historial': 'Pedos'}, {'Nombre': 'Pablo', 'Edad': 44, 'Historial': 'Caca'}]
+database=[{'Nombre': 'Juan', 'Edad': 18, 'Historial': 'Malestar estomacal'}, {'Nombre': 'Pepe', 'Edad': 54, 'Historial': 'Dolor de cabeza'}, {'Nombre': 'Pablo', 'Edad': 44, 'Historial': 'Ronchas en la piel'}]
 
 def show_menu():
     print("1-Cargar paciente\n2-Buscar paciente por nombre\n3-Listar pacientes\n4-Salir del programa")
